@@ -1,5 +1,5 @@
 const express = require('express');
-const ShortUrl = require('./models/shortUrl')
+const ShortUrl = require('../models/shortUrl')
 const mongoose=require('mongoose');
 const app = express();
 
